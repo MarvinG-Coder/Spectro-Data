@@ -41,7 +41,7 @@ def calc_emission(ne, Te, n0, T_He):
 # Change this to an ad04 file for argon. Make sure you check the temperature range the file is for, and note that somewhere here!
 # Here's a link for a doc describing how/where to find this: (https://docs.google.com/document/d/18KeYFCjWgEnEHpKbymAvac_oJgQi2bW69q2L3q6fwVA/edit?usp=sharing)
     # sys.path.append('.../') # This uses your current working directory
-    fil = np.loadtxt('/content/drive/MyDrive/Spectroscopy Data/jj#ar0.dat') # [ADJUST] Insert your file name
+    fil = np.loadtxt('/Users/marvin/Documents/GitHub/Spectro Data/jj#ar0.dat') # [ADJUST] Insert your file name
     # fil2 = float(fil)
     # from pathlib import Path
     # fil = Path.cwd()  / "Caltech Research Papers/DATA/arlike_mom08#ar0.dat"
